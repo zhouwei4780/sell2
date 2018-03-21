@@ -31,7 +31,7 @@ public class BuyerProductController {
     private CategoryService categoryService;
     @GetMapping("list")
     public ResultVO list(){
-        //1.查询所有上架的商品
+        //1.查询所有上架的商品  修改
         List<ProductInfo> productInfos = productService.findUpAll();
         //2. 查询类目(一次性查询)
         //2.1先拿到所有的上架商品的类目编号集合

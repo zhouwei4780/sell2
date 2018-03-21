@@ -17,7 +17,7 @@ public class ProductCategory {
     @GeneratedValue
     private Integer categoryId;
 
-    /** 类目名字. */
+    /** 类目名字.修改 */
     private String categoryName;
 
     /** 类目编号. */
